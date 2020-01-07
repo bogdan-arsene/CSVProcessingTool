@@ -16,7 +16,7 @@ I use the following 3rd party libraries in my project: (if none, remove the tabl
 Name | Reason
 --- | ---
 [FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader) | Allows reading file content from the user's (remote) system.
-[papaparse.js] (https://www.papaparse.com) | For parsing csv format to json format.
+[papaparse.js](https://www.papaparse.com) | For parsing csv format to json format.
 [Bootstrap](https://getbootstrap.com/) | Simple RWD framework for designing the front end.
 
 ## Installation / Run
