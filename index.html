@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>CSV Processing</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <h1> CSV Processing Tool </h1>
+
+        <div id="buttondiv">
+            <input type="file" id="inputfile" />
+            <input type="button" id="viewfile" value="Import file" />
+            <span style="display: none;" id='loading'>Loading...</span>
+            <br><br>
+        </div>
+        <div id="aftertable" style="display: none;">
+            <textarea id="inputrecord" placeholder="Insert new record here"></textarea>
+            <br>
+            <button id="add" class="add-btn">Add new Record</button>
+            <br><br>
+            <a href="#" class="export">Export Table Data into Excel</a>
+        </div>  
+        
+        
+    <footer id="footer">
+      <button id="back" class='back-btn'>Back to TOP</button>
+    </footer>
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="CSV2Table.js"></script>
+    <script src="papaparse.js"></script>
+    <script src="Table2CSV.js" ></script>
+
+
+    </body>
+</html>

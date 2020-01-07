@@ -1,0 +1,130 @@
+body {
+  text-align: center;
+  
+}
+
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 100px;
+  color: black;
+  text-shadow: 4px 4px 4px gray;
+  margin: 0.2em;
+}
+
+
+.active{
+    font-size: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50;
+    border-left-color: transparent;
+    animation: rotate 1.4s ease 0.5 5s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+
+table {
+    font-family: "Times New Roman", Times, serif;
+    border: 1px solid #FFFFFF;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table td, table th {
+    border: 1px solid #FFFFFF;
+    padding: 3px 2px;
+  }
+  table tbody td {
+    font-size: 13px;
+  }
+  table tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table thead {
+    background: #0B6FA4;
+    border-bottom: 5px solid #FFFFFF;
+  }
+  table thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #FFFFFF;
+  }
+  table thead th:first-child {
+    border-left: none;
+  }
+  #footer { position: fixed; bottom:15px; right:15px;}
+
+a.export,
+a.export:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  background-color: lightgreen;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+a.export:hover{
+  background:#fff;
+  box-shadow:0px 2px 10px 5px #97B1BF;
+  color:#000;
+ }
+
+textarea {
+  width: 500px;
+  height: 30px;
+}
+
+.datatable {
+    font-family: Verdana, sans-serif;
+}
+
+#container {
+    height: 400px;
+}
+
+.back-btn {
+  position: relative;
+  background-color: #f39c12;
+  border: none;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.back-btn:hover{
+ background:#fff;
+ box-shadow:0px 2px 10px 5px #97B1BF;
+ color:#000;
+}
+
+.back-btn:after {
+  content: "";
+  background: #f1c40f;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.back-btn:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+
