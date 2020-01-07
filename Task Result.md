@@ -38,14 +38,14 @@ Step 2:
 Open the index.html file in your browser
 
 How to use:
-1 - Import your .csv file using the 'Choose a File' button then click 'Import'
-2 - Wait a few seconds and the table will appear 
-3 - To create a new record in the table use the textarea field like so:
-    - Insert a row in CSV Format ( like the rows from the csv that was already imported ) and then click 'Add new record'
-    - It will automatically scroll the page down to the added record
-    - You can click on 'Back To TOP' to return to the top of the page
-4 - To edit any field just click on the desired field and you can edit the data
-5 - To download the table back in .csv format use the 'Export' button
+1. Import your .csv file using the 'Choose a File' button then click 'Import'
+2. Wait a few seconds and the table will appear 
+3. To create a new record in the table use the textarea field like so:
+    * Insert a row in CSV Format ( like the rows from the csv that was already imported ) and then click 'Add new record'
+    * It will automatically scroll the page down to the added record
+    * You can click on 'Back To TOP' to return to the top of the page
+4. To edit any field just click on the desired field and you can edit the data
+5. To download the table back in .csv format use the 'Export' button
 
 
 ---
